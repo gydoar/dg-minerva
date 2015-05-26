@@ -84,12 +84,55 @@ ul{
 	position: relative;
 }
 
+.page{
+	padding: 30px 0px;
+	font-family: Helvetica;
+}
+.page h2{
+	color: #00A8A8;
+	font-weight: 400;
+	font-family: 'Economica', sans-serif;
+}
+.page h3{
+	color: #00A8A8;
+	font-size: 24px;
+}
+.page h5{
+	font-style: italic;
+	font-size: 16px;
+	color: #00A8A8;
+}
+.page h6{
+
+}
+.banner-somos{
+	background: url(library/img/quienes_somos.jpg);
+	background-repeat: no-repeat;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 300px;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+			-moz-background-size: 100%;
+				-o-background-size: 100%;
+	background-size: cover;
+	border-bottom: 3px solid #00A8A8;
+
+}
+.field-wrap, #ninja_forms_required_items{
+	margin-bottom: 0px;
+}
+
+/*------------------------------------*\
+    $FOOTER
+\*------------------------------------*/
 footer{
 	text-align: center;
 
 }
 .footer{
-	position: relative;
+	clear: both;
 	z-index: 100;
 	margin-top: -40px;
 	background: rgba(255,255,255,0.8);
@@ -105,6 +148,9 @@ footer{
 		font-size: 20px;
 		padding: 0px 20px;
 		color: #00ABAA;
+	}
+	.footer li a:hover{
+		text-decoration: underline;
 	}
 .copyright{
 	color: #ffffff;
@@ -144,6 +190,10 @@ img{
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		.nav_list li a{
+			padding: 0px 8px;
+			font-size: 18px;
+		}
 		.footer li a{
 			padding: 0px 10px;
 		}
@@ -151,6 +201,7 @@ img{
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
+
 		.footer{
 			margin-top: 0px;
 		}

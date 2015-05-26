@@ -1,5 +1,4 @@
 
-
 <footer class="container">
 	<nav>
 		<ul class="footer">
@@ -19,7 +18,7 @@
 
 <!-- script -->
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="<?php bloginfo('template_url' ); ?>/library/js/modernizr-custom-min.js"></script>
 <script src="<?php bloginfo('template_url' ); ?>/library/js/jquery.meanmenu.js"></script>
 <script src="<?php bloginfo('template_url' ); ?>/library/js/owl.carousel.js"></script>
@@ -29,8 +28,8 @@
 
 	<!-- Menu responsive -->
 		<script>
-			jQuery(document).ready(function () {
-			    jQuery('header nav').meanmenu();
+			$(document).ready(function () {
+			    $('header nav').meanmenu();
 			});
 		</script>
 	<!--/ Menu responsive -->
