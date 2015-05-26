@@ -28,6 +28,8 @@ Tags: wordpress, html5, css3, jquery, javascript, suwwweb
 @import url(library/css/skeleton.css);
 @import url(library/css/wp_css.css);
 @import url(library/css/meanmenu.css);
+@import url(library/css/owl.carousel.css);
+@import url(library/css/owl.theme.css);
 @import url(http://fonts.googleapis.com/css?family=Economica:400,700,400italic,700italic);
 
 body{
@@ -73,6 +75,12 @@ ul{
 	text-align: center;
 	margin-bottom: 10px;
 }
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 footer{}
 
 .copyright{
