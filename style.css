@@ -84,7 +84,7 @@ ul{
 	position: relative;
 }
 
-.page{
+.page, .single{
 	padding: 30px 0px;
 	font-family: Helvetica;
 }
@@ -104,6 +104,19 @@ ul{
 }
 .page h6{
 
+}
+.single h2{
+	font-size: 30px;
+	font-family: 'Economica', sans-serif;
+	color: #00A8A8;
+}
+.single span{
+	font-style: italic;
+	font-size: 12px;
+	text-decoration: underline;
+}
+.single hr{
+	border-bottom: 1px inset #00A8A8;
 }
 .banner-somos{
 	background: url(library/img/quienes_somos.jpg);

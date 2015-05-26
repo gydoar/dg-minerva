@@ -32,7 +32,7 @@
 
 	<header>
 		<div class="container logo">
-			<a href=""><img width="112" src="<?php bloginfo('template_url' ); ?>/library/img/logo.png" alt=""></a>
+			<a href="<?php echo home_url('/' ); ?>"><img width="112" src="<?php bloginfo('template_url' ); ?>/library/img/logo.png" alt=""></a>
 		</div>
 		<div class="container">
 			<?php wp_nav_menu(array(
