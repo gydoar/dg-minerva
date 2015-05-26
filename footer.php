@@ -1,7 +1,21 @@
 
 
+<footer class="container">
+	<nav>
+		<ul class="footer">
+			<li><a href="">Bogotá</a></li>
+			<li><a href="">Medellín</a></li>
+			<li><a href="">Cali</a></li>
+			<li><a href="">Cartagena</a></li>
+			<li><a href="">Pasto</a></li>
+			<li><a href="">Contacto</a></li>
+		</ul>
+	</nav>
+</footer>
 
-
+<div class="copyright">
+	<p>Hecho con&nbsp;<img width="8" src="<?php bloginfo('template_url' ); ?>/library/img/corazon.png" alt="">&nbsp;por <a target="_blank" href="http://degris.com">Degris</a></p>
+</div>
 
 <!-- script -->
 
