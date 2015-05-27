@@ -13,7 +13,7 @@
 </footer>
 
 <div class="copyright">
-	<p>Hecho con&nbsp;<img width="8" src="<?php bloginfo('template_url' ); ?>/library/img/corazon.png" alt="">&nbsp;por <a target="_blank" href="http://degris.com">Degris</a></p>
+	<p>&copy; <?php the_date('Y'); ?> <?php bloginfo('name' ); ?> | Diseñado y desarrollado por <a target="_blank" href="http://degris.com">Degris</a></p>
 </div>
 
 <!-- script -->
