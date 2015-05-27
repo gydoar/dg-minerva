@@ -92,6 +92,7 @@ ul{
 	color: #00A8A8;
 	font-weight: 400;
 	font-family: 'Economica', sans-serif;
+	padding-bottom: 20px;
 }
 .page h3{
 	color: #00A8A8;
@@ -137,6 +138,12 @@ ul{
 	margin-bottom: 0px;
 }
 
+.products li{
+	list-style: none;
+}
+.content-product h3{
+	font-size: 22px;
+}
 /*------------------------------------*\
     $FOOTER
 \*------------------------------------*/
