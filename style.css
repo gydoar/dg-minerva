@@ -84,7 +84,7 @@ ul{
 	position: relative;
 }
 
-.page, .single, .archive-product{
+.page, .single, .archive-product, .single-product, .cont-single-product{
 	padding: 30px 0px;
 	font-family: Helvetica;
 }
@@ -119,12 +119,40 @@ ul{
 .single hr{
 	border-bottom: 1px inset #00A8A8;
 }
+.banner-contacto{
+	background: url(library/img/contacto.jpg);
+	background-repeat: no-repeat;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 200px;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+			-moz-background-size: 100%;
+				-o-background-size: 100%;
+	background-size: cover;
+	border-bottom: 3px solid #00A8A8;
+}
+.banner-noticias{
+	background: url(library/img/noticias.jpg);
+	background-repeat: no-repeat;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 200px;
+	width: 100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+			-moz-background-size: 100%;
+				-o-background-size: 100%;
+	background-size: cover;
+	border-bottom: 3px solid #00A8A8;
+}
 .banner-somos{
 	background: url(library/img/quienes_somos.jpg);
 	background-repeat: no-repeat;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 300px;
+	min-height: 200px;
 	width: 100%;
 	background-size: 100%;
 		-webkit-background-size: 100%;
@@ -134,6 +162,7 @@ ul{
 	border-bottom: 3px solid #00A8A8;
 
 }
+
 .field-wrap, #ninja_forms_required_items{
 	margin-bottom: 0px;
 }
@@ -145,10 +174,55 @@ ul{
 	list-style: none;
 }
 
+.content-product a{
+	padding-bottom: 30px;
+}
+
 .content-product h3{
 	font-size: 18px;
 }
+.content-product a img{
+	border: 3px solid #00A8A8;
+	opacity: 0.8;
+	transition: all 0.5s ease;
+		-webkit-transition: all 0.5s ease;
+			-moz-transition: all 0.5s ease;
+				-o-transition: all 0.5s ease;
+}
+.content-product a img:hover{
+	opacity: 1;
+	transition: all 0.5s ease;
+}
 
+.archive-product h2{
+	color: #00A8A8;
+	font-size: 36px;
+}
+.entry-summary h1{
+	font-size: 24px;
+	color: #00A8A8;
+}
+.entry-content h2{
+	font-size: 24px;
+}
+.related{
+	padding-top: 30px;
+}
+.related h2{
+	font-size: 24px;
+}
+.woocommerce-breadcrumb{
+	color: #808080;
+	font-size: 12px;
+}
+.spacing{
+	padding-bottom: 20px;
+}
+.thumbnails a img{
+	border: 3px solid #00A8A8;
+	margin-left: 3px;
+
+}
 /*------------------------------------*\
     $FOOTER
 \*------------------------------------*/

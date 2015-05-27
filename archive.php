@@ -1,7 +1,16 @@
 <?php get_header(); ?>
 
-	<article class="single container">
+	<div class="page__banner">
+			
+			<?php if(is_category()){
+				echo '<div class="banner-noticias"></div>';
+			}
+			?>
 
+	</div>
+
+	<article class="single container">
+		
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
 			<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>

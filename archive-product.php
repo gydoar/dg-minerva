@@ -32,7 +32,7 @@ get_header( 'shop' ); ?>
 
 		<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 
-			<h1 class="page-title"><?php woocommerce_page_title(); ?></h1>
+			<h2 class="page-title"><?php woocommerce_page_title(); ?></h2>
 
 		<?php endif; ?>
 
@@ -61,7 +61,7 @@ get_header( 'shop' ); ?>
 				<?php endwhile; // end of the loop. ?>
 
 			<?php woocommerce_product_loop_end(); ?>
-
+			<div class="spacing"></div>
 			<?php
 				/**
 				 * woocommerce_after_shop_loop hook

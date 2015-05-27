@@ -1,16 +1,13 @@
 <?php get_header(); ?>
 	
 	<div class="page__banner">
-		<?php rewind_posts(); ?>
-		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
 			<?php if(is_page(21)){
 				echo '<div class="banner-somos"></div>';
-			} ?>
-
-		<?php endwhile; else : ?>
-			<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
-		<?php endif; ?>
+			}else if(is_page(44)){
+				echo '<div class="banner-contacto"></div>';
+			}
+			?>
 
 	</div>
 	<article class="page container">

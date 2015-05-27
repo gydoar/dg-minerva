@@ -2,12 +2,12 @@
 <footer class="container">
 	<nav>
 		<ul class="footer">
-			<li><a href="">Bogotá</a></li>
-			<li><a href="">Medellín</a></li>
-			<li><a href="">Cali</a></li>
-			<li><a href="">Cartagena</a></li>
-			<li><a href="">Pasto</a></li>
-			<li><a href="">Contacto</a></li>
+			<li><a href="<?php echo home_url('/contacto' ); ?>">Bogotá</a></li>
+			<li><a href="<?php echo home_url('/contacto' ); ?>">Medellín</a></li>
+			<li><a href="<?php echo home_url('/contacto' ); ?>">Cali</a></li>
+			<li><a href="<?php echo home_url('/contacto' ); ?>">Cartagena</a></li>
+			<li><a href="<?php echo home_url('/contacto' ); ?>">Pasto</a></li>
+			<li><a href="<?php echo home_url('/contacto' ); ?>">Contacto</a></li>
 		</ul>
 	</nav>
 </footer>
