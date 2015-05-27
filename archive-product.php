@@ -16,8 +16,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 get_header( 'shop' ); ?>
 
-<div class="container">
-	
+<div class="container archive-product">
+
 	<?php
 		/**
 		 * woocommerce_before_main_content hook
