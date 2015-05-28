@@ -18,7 +18,7 @@ register_nav_menus(
     $SOPORTE PARA THUMBNAILS
 \*------------------------------------*/
 add_theme_support('post-thumbnails' );
-add_image_size('blog', 250, 100, true );
+add_image_size('blog', 350, 150, true );
 
 /*------------------------------------*\
     $HABILITAR LEER MAS

@@ -16,7 +16,7 @@
 			<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 			<div class="row">
 				<div class="three columns">
-					<?php the_post_thumbnail('blog' ); ?>
+					<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('blog' ); ?></a>
 				</div>
 				<div class="nine columns">
 					<span>Publicado el: <strong><?php the_date('d-m-Y'); ?></strong></span>
