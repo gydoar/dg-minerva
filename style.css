@@ -34,6 +34,7 @@ Tags: wordpress, html5, css3, jquery, javascript, suwwweb
 
 body{
 	font-family: 'Economica', sans-serif;
+	background: #F1F1F1;
 }
 
 
@@ -85,7 +86,8 @@ ul{
 }
 
 .page, .single, .archive-product, .single-product, .cont-single-product, .page404{
-	padding: 30px 0px;
+	padding: 30px 20px;
+	background-color: #ffffff;
 	font-family: Helvetica;
 }
 .page h2{
@@ -173,15 +175,18 @@ ul{
 .products li{
 	list-style: none;
 }
+.content-product{
 
+}
 .content-product a{
 	padding-bottom: 30px;
 }
 
 .content-product h3{
-	font-size: 18px;
+	font-size: 16px;
 }
 .content-product a img{
+	margin:0 10px;
 	border: 3px solid #00A8A8;
 	opacity: 0.8;
 	transition: all 0.5s ease;
@@ -226,6 +231,9 @@ ul{
 	margin-left: 3px;
 
 }
+.images a img{
+	border: 3px solid #00A8A8;
+}
 .center{
 	text-align: center;
 }
@@ -234,6 +242,11 @@ ul{
 }
 .page404 h3{
 	color: #00A8A8;
+}
+
+a[href$=".PDF"], a[href$=".pdf"] {
+	padding: 2px 2px 2px 20px;
+	background: url(library/img/pdf.png) left center no-repeat;
 }
 /*------------------------------------*\
     $FOOTER
@@ -246,7 +259,6 @@ footer{
 	clear: both;
 	z-index: 100;
 	margin-top: -40px;
-	background: rgba(255,255,255,0.8);
 	border-radius: 10px 10px 0px 0px;
 
 }
