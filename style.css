@@ -174,12 +174,10 @@ ul{
 }
 .products li{
 	list-style: none;
+	height: 300px;
 }
 .content-product{
-
-}
-.content-product a{
-	padding-bottom: 30px;
+	margin-left: 20px;
 }
 
 .content-product h3{

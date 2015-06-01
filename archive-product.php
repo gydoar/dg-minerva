@@ -61,7 +61,7 @@ get_header( 'shop' ); ?>
 				<?php endwhile; // end of the loop. ?>
 
 			<?php woocommerce_product_loop_end(); ?>
-			<div class="spacing"></div>
+			
 			<?php
 				/**
 				 * woocommerce_after_shop_loop hook
