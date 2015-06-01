@@ -36,8 +36,6 @@ body{
 	font-family: 'Economica', sans-serif;
 	background: #F1F1F1;
 }
-
-
 /*------------------------------------*\
     $STYLES
 \*------------------------------------*/
@@ -220,6 +218,9 @@ ul{
 	color: #808080;
 	font-size: 12px;
 }
+.search-product{
+	text-align: right;
+}
 .spacing{
 	padding-bottom: 20px;
 }
@@ -252,6 +253,19 @@ a[href$=".PDF"], a[href$=".pdf"] {
 	top: -7px;
 
 }
+.copy-banner{
+	color: #00A8A8;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 40px;
+	position: absolute;
+}
+	.copy-banner p{
+		padding-top: -300px;
+	}
+	.copy-banner span{
+		font-size: 50px;
+	}
 /*------------------------------------*\
     $FOOTER
 \*------------------------------------*/
@@ -306,13 +320,46 @@ img{
 \*------------------------------------*/
 
 	/* Smaller than standard 960 (devices and browsers) */
-	@media only screen and (max-width: 959px) {}
+	@media only screen and (max-width: 959px) {
+		.copy-banner{
+			margin-top: -300px;
+			color: #00A8A8;
+			font-size: 20px;
+			font-weight: 700;
+			line-height: 40px;
+		}
+			.copy-banner span{
+				font-size: 40px;
+			}
+	}
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
-	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		.copy-banner{
+			margin-top: -300px;
+			color: #00A8A8;
+			font-size: 20px;
+			font-weight: 700;
+			line-height: 40px;
+		}
+			.copy-banner span{
+				font-size: 30px;
+			}
+	}
 
 	/* All Mobile Sizes (devices and browser) */
-	@media only screen and (max-width: 767px) {}
+	@media only screen and (max-width: 767px) {
+		.copy-banner{
+			margin-top: -200px;
+			color: #00A8A8;
+			font-size: 15px;
+			font-weight: 700;
+			line-height: 40px;
+		}
+			.copy-banner span{
+				font-size: 20px;
+			}
+	}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -326,6 +373,15 @@ img{
 		.footer li a{
 			padding: 0px 10px;
 		}
+		.copy-banner{
+			color: #00A8A8;
+			font-size: 15px;
+			font-weight: 700;
+			line-height: 30px;
+		}
+			.copy-banner span{
+				font-size: 18px;
+			}
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */

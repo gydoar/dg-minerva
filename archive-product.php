@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 get_header( 'shop' ); ?>
 
 <div class="container archive-product">
-	<?php get_product_search_form(); ?>
+	<div class="search-product"><?php get_product_search_form(); ?></div>
 	<?php
 		/**
 		 * woocommerce_before_main_content hook

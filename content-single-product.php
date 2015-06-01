@@ -28,8 +28,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	 	return;
 	 }
 ?>
+<div class="search-product"><?php get_product_search_form(); ?></div>
+<div class="cont-single-product" itemscope itemtype="<?php echo woocommerce_get_product_schema(); ?>" id="product-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-<div class="cont-single-product"itemscope itemtype="<?php echo woocommerce_get_product_schema(); ?>" id="product-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<div class="six columns">
 		<?php
 			/**
