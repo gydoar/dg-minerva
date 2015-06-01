@@ -89,6 +89,7 @@ ul{
 	padding: 30px 20px;
 	background-color: #ffffff;
 	font-family: Helvetica;
+	color: #5c5c5c;
 }
 .page h2{
 	color: #00A8A8;
@@ -171,6 +172,7 @@ ul{
 .products{
 	text-align: center;
 	float: center;
+	margin:0 auto;
 }
 .products li{
 	list-style: none;
@@ -245,6 +247,10 @@ ul{
 a[href$=".PDF"], a[href$=".pdf"] {
 	padding: 2px 2px 2px 20px;
 	background: url(library/img/pdf.png) left center no-repeat;
+}
+.fb-like{
+	top: -7px;
+
 }
 /*------------------------------------*\
     $FOOTER
