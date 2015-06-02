@@ -1,4 +1,4 @@
-
+<!--
 <footer class="container">
 	<nav>
 		<ul class="footer">
@@ -11,6 +11,7 @@
 		</ul>
 	</nav>
 </footer>
+-->
 
 <div class="copyright">
 	<p>&copy; <?php the_date('Y'); ?> <?php bloginfo('name' ); ?> | Diseñado y desarrollado por <a target="_blank" href="http://degris.com">Degris</a></p>
@@ -43,7 +44,7 @@
 				      slideSpeed : 300,
 				      paginationSpeed : 400,
 				      singleItem:true,
-				      autoPlay: false,
+				      autoPlay: true,
 				      pagination: false
 				 
 				      // "singleItem:true" is a shortcut for:
